@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Rina Warren
+# DATE: October 1, 2025
+# BRIEF DESCRIPTION:  Gives a compliment, unless it doesnt
 
 
 
@@ -15,9 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+want_compliment = input('Would you like a compliment? ')
 
+if(want_compliment == 'yes'):
+    print('You have wonderful eyes.')
 
-
+else:
+    print('No compliment for you!')
+print('Thank you for playing.')
 
 
 
